@@ -39,6 +39,9 @@ export default function Game() {
   if (!worldId || !engineId || !game) {
     return null;
   }
+
+  
+
   return (
     <>
       {SHOW_DEBUG_UI && <DebugTimeManager timeManager={timeManager} width={200} height={100} />}
